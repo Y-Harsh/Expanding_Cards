@@ -6,40 +6,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Expanding Cards</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
 </head>
 
 <body>
     <!-- Container Wrapper -->
+    <button class="theme-toggle">🌓</button>
+    <!-- <div class="panel">
+        <img src="https://plus.unsplash.com/premium_photo-1667126445804-79202e10a28a?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bmF0dXJhbCUyMHNjZW5lcnl8ZW58MHx8MHx8fDA%3D" alt="Image description" />
+        <h3>Some Title</h3>
+    </div> -->
+
     <div class="container">
         <!-- Panel 1 (Active by Default) -->
-        <div class="panel active"
-            style="background-image: url('https://images.unsplash.com/photo-1558979158-65a1eaa08691?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80')">
-            <h3>Explore The World</h3>
+        <div class="panel">
+            <img src="https://images.unsplash.com/photo-1711640284590-87b6897051a8?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTV8fG5hdHVyYWwlMjBzY2VuZXJ5fGVufDB8fDB8fHww" />
+            <h3>Phool</h3>
         </div>
 
         <!-- Panel 2 -->
-        <div class="panel"
-            style="background-image: url('https://images.unsplash.com/photo-1572276596237-5db2c3e16c5d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80')">
-            <h3>Wild Forest</h3>
+        <div class="panel">
+            <img src="https://plus.unsplash.com/premium_photo-1722680738736-66a4cdc08923?q=80&w=2891&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Image description" />
+            <h3>Jal Mahal</h3>
         </div>
+
 
         <!-- Panel 3 -->
-        <div class="panel"
-            style="background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1353&q=80')">
-            <h3>Sunny Beach</h3>
+        <div class="panel">
+            <img src="https://plus.unsplash.com/premium_photo-1700143162587-5c09d6e3eece?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjF8fG5hdHVyYWwlMjBzY2VuZXJ5fGVufDB8fDB8fHww" alt="Image description" />
+            <h3>Road Not Taken</h3>
         </div>
 
+
         <!-- Panel 4 -->
-        <div class="panel"
-            style="background-image: url('https://images.unsplash.com/photo-1551009175-8a68da93d5f9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80')">
-            <h3>City on Winter</h3>
+        <div class="panel">
+            <img src="https://images.unsplash.com/photo-1713200225200-a61bbf6f0cbf?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjJ8fG5hdHVyYWwlMjBzY2VuZXJ5fGVufDB8fDB8fHww" alt="Image description" />
+            <h3>Beach</h3>
         </div>
 
         <!-- Panel 5 -->
-        <div class="panel"
-            style="background-image: url('https://images.unsplash.com/photo-1549880338-65ddcdfd017b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80')">
-            <h3>Mountains - Clouds</h3>
+        <div class="panel">
+            <img src="https://images.unsplash.com/photo-1532455550983-01fdc1ab81c5?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Njd8fG5hdHVyYWwlMjBzY2VuZXJ5fGVufDB8fDB8fHww" alt="Image description" />
+            <h3>Green Vegetation</h3>
         </div>
+
     </div>
 
     <script src="script.js"></script>
